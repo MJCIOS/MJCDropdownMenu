@@ -19,5 +19,11 @@
 
     [MJCDropdownMenu setupImagenewFrame:sender ImageW:130 imageH:120 MJCDropdownMenuType:MJCDropdownMenuLeft];
     [MJCDropdownMenu setupImagenewFrame:<#(UIView *)#> ImageX:<#(CGFloat)#> imageY:<#(CGFloat)#>];
-    [MJCDropdownMenu setupImagenewFrame:<#(UIView *)#> mainContainerX:<#(CGFloat)#> mainContainerY:<#(CGFloat)#> mainContainerW:<#(CGFloat)#> mainContainerH:<#(CGFloat)#>]
-    
+    [MJCDropdownMenu setupImagenewFrame:<#(UIView *)#> mainContainerX:<#(CGFloat)#> mainContainerY:<#(CGFloat)#> mainContainerW:<#(CGFloat)#> mainContainerH:<#(CGFloat)#>]
+###方法
+    
+    [MJCDropdownMenu hidedismiss];消失方法
+    [MJCDropdownMenu showFromView:<#(UIView *)#> mainImage:<#(UIImage *)#> showcontentController:<#(UIViewController *)#> MJCDropdownMenuType:<#(MJCDropdownMenuType)#>]
+    [MJCDropdownMenu showFromView:<#(UIView *)#> mainImage:<#(UIImage *)#> showcontentController:<#(UIViewController *)#> MJCDropdownMenuType:<#(MJCDropdownMenuType)#>]
+    UIImage *image2 = [MJCDropdownMenu imageByApplyingAlpha:<#(CGFloat)#> image:<#(UIImage *)#>]
+    UIImage *image1= [MJCDropdownMenu imageStretchableImageWithLeftCap:<#(UIImage *)#>]
