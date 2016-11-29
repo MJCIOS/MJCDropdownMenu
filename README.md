@@ -27,8 +27,8 @@
     [MJCDropdownMenu setupImagenewFrame:<#(UIView *)#> ImageX:<#(CGFloat)#> imageY:<#(CGFloat)#>];
     [MJCDropdownMenu setupImagenewFrame:<#(UIView *)#> mainContainerX:<#(CGFloat)#> mainContainerY:<#(CGFloat)#> mainContainerW:<#(CGFloat)#> mainContainerH:<#(CGFloat)#>]
 ### 方法
-        [MJCDropdownMenu hidedismiss],图片消失的方法,<br>
-        [MJCDropdownMenu showFromView:<#(UIView *)#> mainImage:<#(UIImage *)#> showcontentController:<#(UIViewController *)#> MJCDropdownMenuType:<#(MJCDropdownMenuType)#>]一句创建窗口以及里面子控件的方法,<br>
+        [MJCDropdownMenu hidedismiss],图片消失的方法,<br>
         [MJCDropdownMenu showFromView:<#(UIView *)#> mainImage:<#(UIImage *)#> showcontentController:<#(UIViewController *)#> MJCDropdownMenuType:<#(MJCDropdownMenuType)#>]一句创建窗口以及里面子控件的方法,<br>
-        UIImage *image2 = [MJCDropdownMenu imageByApplyingAlpha:<#(CGFloat)#> image:<#(UIImage *)#>]图片透明的的方法,<br>
-        UIImage *image1= [MJCDropdownMenu imageStretchableImageWithLeftCap:<#(UIImage *)#>]图片拉伸的方法
+        [MJCDropdownMenu showFromView:<#(UIView *)#> mainImage:<#(UIImage *)#> showcontentController:<#(UIViewController *)#> MJCDropdownMenuType:<#(MJCDropdownMenuType)#>]一句创建窗口以及里面子控件的方法,<br>
+        UIImage *image2 = [MJCDropdownMenu imageByApplyingAlpha:<#(CGFloat)#> image:<#(UIImage *)#>]图片透明的的方法,<br>
+        UIImage *image1= [MJCDropdownMenu imageStretchableImageWithLeftCap:<#(UIImage *)#>]图片拉伸的方法
