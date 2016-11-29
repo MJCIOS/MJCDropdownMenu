@@ -31,5 +31,5 @@
     [MJCDropdownMenu hidedismiss];
     [MJCDropdownMenu showFromView:<#(UIView *)#> mainImage:<#(UIImage *)#> showcontentController:<#(UIViewController *)#> MJCDropdownMenuType:<#(MJCDropdownMenuType)#>]
     [MJCDropdownMenu showFromView:<#(UIView *)#> mainImage:<#(UIImage *)#> showcontentController:<#(UIViewController *)#> MJCDropdownMenuType:<#(MJCDropdownMenuType)#>]
-    UIImage *image2 = [MJCDropdownMenu imageByApplyingAlpha:<#(CGFloat)#> image:<#(UIImage *)#>]
-    UIImage *image1= [MJCDropdownMenu imageStretchableImageWithLeftCap:<#(UIImage *)#>]
+    UIImage *image2 = [MJCDropdownMenu imageByApplyingAlpha:<#(CGFloat)#> image:<#(UIImage *)#>]
+    UIImage *image1= [MJCDropdownMenu imageStretchableImageWithLeftCap:<#(UIImage *)#>]
