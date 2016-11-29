@@ -7,8 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "UIView+MJCExtenSion.h"
+
+#define MJCScreenBound [UIScreen mainScreen].bounds
+#define MJCScreenWidth [UIScreen mainScreen].bounds.size.width
+#define MJCScreenHeight [UIScreen mainScreen].bounds.size.height
+
 
 @interface MJCDropdownView : NSObject
+
+
 
 /** 显示窗口菜单(只有窗口菜单,并没有容器,需要自己添加) */
 +(void)showFromView:(UIView *)fromView mainImage:(UIImage*)mainImage imagenewMarginX:(CGFloat)imagenewX imagenewMarginY:(CGFloat)imagenewMarginY imagenewWidth:(CGFloat)imagenewWidth imagenewHeight:(CGFloat)imagenewHeight;

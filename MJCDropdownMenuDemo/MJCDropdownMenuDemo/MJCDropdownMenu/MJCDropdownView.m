@@ -40,6 +40,7 @@ static UIView *contentView;
 //创建一个窗口
 +(void)setupWindow
 {
+    
     //实例化窗口
     window = [[UIWindow alloc]init];
     
@@ -72,12 +73,11 @@ static UIView *contentView;
 +(void)setupContainerImageView:(UIImage *)image;
 {
     //防止图片拉伸
-    UIImage *images = image;
-    UIImage *newimage = [images resizableImageWithCapInsets:UIEdgeInsetsMake(images.size.height * 0.5,images.size.width *0.5,images.size.height * 0.5, images.size.width * 0.5)];
-    
+    UIImage *newImage = [self imageStretchableImageWithLeftCap:image];
     
     containerImage_ = [[UIImageView alloc]init];
-    containerImage_.image = newimage;
+    
+    containerImage_.image = newImage;
     containerImage_.mjc_width = MJCImageW;//containerView的初始宽度值
     containerImage_.mjc_height = MJCImageH;//containerView的初始高度值
     containerImage_.mjc_y = 120;//containerView的初始Y值
@@ -179,6 +179,39 @@ static UIView *contentView;
 }
 
 
+//设置图片透明度
++ (UIImage *)imageByApplyingAlpha:(CGFloat)alpha  image:(UIImage*)image
+{
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, 0.0f);
+    
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    
+    CGRect area = CGRectMake(0, 0, image.size.width, image.size.height);
+    
+    CGContextScaleCTM(ctx, 1, -1);
+    CGContextTranslateCTM(ctx, 0, -area.size.height);
+    
+    CGContextSetBlendMode(ctx, kCGBlendModeMultiply);
+    
+    CGContextSetAlpha(ctx, alpha);
+    
+    CGContextDrawImage(ctx, area, image.CGImage);
+    
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return newImage;
+    
+}
+
++(UIImage *)imageStretchableImageWithLeftCap:(UIImage *)image
+{
+    //防止图片拉伸
+    UIImage *newimage = [image resizableImageWithCapInsets:UIEdgeInsetsMake(image.size.height * 0.5,image.size.width *0.5,image.size.height * 0.5, image.size.width * 0.5)];
+    
+    return newimage;
+}
 
 
 @end

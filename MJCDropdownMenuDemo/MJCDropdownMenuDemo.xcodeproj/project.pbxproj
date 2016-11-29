@@ -18,9 +18,13 @@
 		25B4BF061DED1D87001B70C0 /* popover_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B4BEFC1DED1D87001B70C0 /* popover_background@2x.png */; };
 		25B4BF071DED1D87001B70C0 /* popover_background_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B4BEFD1DED1D87001B70C0 /* popover_background_left@2x.png */; };
 		25B4BF081DED1D87001B70C0 /* popover_background_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B4BEFE1DED1D87001B70C0 /* popover_background_right@2x.png */; };
-		25B4BF091DED1D87001B70C0 /* MJCDropdownMenu1.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B4BF001DED1D87001B70C0 /* MJCDropdownMenu1.m */; };
+		25B4BF091DED1D87001B70C0 /* MJCDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B4BF001DED1D87001B70C0 /* MJCDropdownMenu.m */; };
 		25B4BF0A1DED1D87001B70C0 /* MJCDropdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B4BF021DED1D87001B70C0 /* MJCDropdownView.m */; };
 		25B4BF0B1DED1D87001B70C0 /* UIView+MJCExtenSion.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B4BF051DED1D87001B70C0 /* UIView+MJCExtenSion.m */; };
+		25B4BF0F1DED1F64001B70C0 /* MJCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B4BF0D1DED1F64001B70C0 /* MJCTestViewController.m */; };
+		25B4BF101DED1F64001B70C0 /* MJCTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B4BF0E1DED1F64001B70C0 /* MJCTestViewController.xib */; };
+		25B4BF141DED20F1001B70C0 /* MJCTestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B4BF121DED20F1001B70C0 /* MJCTestViewController2.m */; };
+		25B4BF151DED20F1001B70C0 /* MJCTestViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B4BF131DED20F1001B70C0 /* MJCTestViewController2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,12 +64,18 @@
 		25B4BEFC1DED1D87001B70C0 /* popover_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover_background@2x.png"; sourceTree = "<group>"; };
 		25B4BEFD1DED1D87001B70C0 /* popover_background_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover_background_left@2x.png"; sourceTree = "<group>"; };
 		25B4BEFE1DED1D87001B70C0 /* popover_background_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popover_background_right@2x.png"; sourceTree = "<group>"; };
-		25B4BEFF1DED1D87001B70C0 /* MJCDropdownMenu1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCDropdownMenu1.h; sourceTree = "<group>"; };
-		25B4BF001DED1D87001B70C0 /* MJCDropdownMenu1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCDropdownMenu1.m; sourceTree = "<group>"; };
+		25B4BEFF1DED1D87001B70C0 /* MJCDropdownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCDropdownMenu.h; sourceTree = "<group>"; };
+		25B4BF001DED1D87001B70C0 /* MJCDropdownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCDropdownMenu.m; sourceTree = "<group>"; };
 		25B4BF011DED1D87001B70C0 /* MJCDropdownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCDropdownView.h; sourceTree = "<group>"; };
 		25B4BF021DED1D87001B70C0 /* MJCDropdownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCDropdownView.m; sourceTree = "<group>"; };
 		25B4BF041DED1D87001B70C0 /* UIView+MJCExtenSion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJCExtenSion.h"; sourceTree = "<group>"; };
 		25B4BF051DED1D87001B70C0 /* UIView+MJCExtenSion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJCExtenSion.m"; sourceTree = "<group>"; };
+		25B4BF0C1DED1F64001B70C0 /* MJCTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCTestViewController.h; sourceTree = "<group>"; };
+		25B4BF0D1DED1F64001B70C0 /* MJCTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCTestViewController.m; sourceTree = "<group>"; };
+		25B4BF0E1DED1F64001B70C0 /* MJCTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJCTestViewController.xib; sourceTree = "<group>"; };
+		25B4BF111DED20F1001B70C0 /* MJCTestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCTestViewController2.h; sourceTree = "<group>"; };
+		25B4BF121DED20F1001B70C0 /* MJCTestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCTestViewController2.m; sourceTree = "<group>"; };
+		25B4BF131DED20F1001B70C0 /* MJCTestViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJCTestViewController2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +127,14 @@
 			isa = PBXGroup;
 			children = (
 				25B4BEFA1DED1D87001B70C0 /* MJCDropdownMenu */,
-				25B4BECA1DED1C2A001B70C0 /* AppDelegate.h */,
-				25B4BECB1DED1C2A001B70C0 /* AppDelegate.m */,
 				25B4BECD1DED1C2A001B70C0 /* ViewController.h */,
 				25B4BECE1DED1C2A001B70C0 /* ViewController.m */,
+				25B4BF0C1DED1F64001B70C0 /* MJCTestViewController.h */,
+				25B4BF0D1DED1F64001B70C0 /* MJCTestViewController.m */,
+				25B4BF0E1DED1F64001B70C0 /* MJCTestViewController.xib */,
+				25B4BF111DED20F1001B70C0 /* MJCTestViewController2.h */,
+				25B4BF121DED20F1001B70C0 /* MJCTestViewController2.m */,
+				25B4BF131DED20F1001B70C0 /* MJCTestViewController2.xib */,
 				25B4BEC71DED1C2A001B70C0 /* Supporting Files */,
 			);
 			path = MJCDropdownMenuDemo;
@@ -129,6 +143,8 @@
 		25B4BEC71DED1C2A001B70C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25B4BECA1DED1C2A001B70C0 /* AppDelegate.h */,
+				25B4BECB1DED1C2A001B70C0 /* AppDelegate.m */,
 				25B4BED01DED1C2A001B70C0 /* Main.storyboard */,
 				25B4BED31DED1C2A001B70C0 /* Assets.xcassets */,
 				25B4BED51DED1C2A001B70C0 /* LaunchScreen.storyboard */,
@@ -160,8 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				25B4BEFB1DED1D87001B70C0 /* image */,
-				25B4BEFF1DED1D87001B70C0 /* MJCDropdownMenu1.h */,
-				25B4BF001DED1D87001B70C0 /* MJCDropdownMenu1.m */,
+				25B4BEFF1DED1D87001B70C0 /* MJCDropdownMenu.h */,
+				25B4BF001DED1D87001B70C0 /* MJCDropdownMenu.m */,
 				25B4BF011DED1D87001B70C0 /* MJCDropdownView.h */,
 				25B4BF021DED1D87001B70C0 /* MJCDropdownView.m */,
 				25B4BF031DED1D87001B70C0 /* 设置尺寸 */,
@@ -300,6 +316,8 @@
 				25B4BF081DED1D87001B70C0 /* popover_background_right@2x.png in Resources */,
 				25B4BED41DED1C2A001B70C0 /* Assets.xcassets in Resources */,
 				25B4BED21DED1C2A001B70C0 /* Main.storyboard in Resources */,
+				25B4BF151DED20F1001B70C0 /* MJCTestViewController2.xib in Resources */,
+				25B4BF101DED1F64001B70C0 /* MJCTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +346,9 @@
 				25B4BECF1DED1C2A001B70C0 /* ViewController.m in Sources */,
 				25B4BECC1DED1C2A001B70C0 /* AppDelegate.m in Sources */,
 				25B4BF0B1DED1D87001B70C0 /* UIView+MJCExtenSion.m in Sources */,
-				25B4BF091DED1D87001B70C0 /* MJCDropdownMenu1.m in Sources */,
+				25B4BF091DED1D87001B70C0 /* MJCDropdownMenu.m in Sources */,
+				25B4BF0F1DED1F64001B70C0 /* MJCTestViewController.m in Sources */,
+				25B4BF141DED20F1001B70C0 /* MJCTestViewController2.m in Sources */,
 				25B4BEC91DED1C2A001B70C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,6 +579,7 @@
 				25B4BEF31DED1C2A001B70C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25B4BEF41DED1C2A001B70C0 /* Build configuration list for PBXNativeTarget "MJCDropdownMenuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +588,7 @@
 				25B4BEF61DED1C2A001B70C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25B4BEF71DED1C2A001B70C0 /* Build configuration list for PBXNativeTarget "MJCDropdownMenuDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +597,7 @@
 				25B4BEF91DED1C2A001B70C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

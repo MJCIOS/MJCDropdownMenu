@@ -6,7 +6,7 @@
 //
 //
 
-#import "MJCDropdownMenu1.h"
+#import "MJCDropdownMenu.h"
 #import "MJCDropdownView.h"
 
 
@@ -22,7 +22,7 @@ static const CGFloat MJCImageW = 110;
 static const CGFloat MJCImageH = 200;
 
 
-@implementation MJCDropdownMenu1
+@implementation MJCDropdownMenu
 
 // !!!:显示窗口
 +(void)showFromView:(UIView *)fromView mainImage:(UIImage*)mainImage MJCDropdownMenuType:(MJCDropdownMenuType)MJCDropdownMenuType
@@ -32,7 +32,7 @@ static const CGFloat MJCImageH = 200;
         
     }else if (MJCDropdownMenuType == MJCDropdownMenuMiddle){//中间
         
-        [MJCDropdownView showFromView:fromView mainImage:mainImage imagenewMarginX:0 imagenewMarginY:MJCMarginY imagenewWidth:MJCImageW imagenewHeight:MJCImageH];
+        [MJCDropdownView showFromView:fromView mainImage:mainImage imagenewMarginX:0 imagenewMarginY:MJCMarginY imagenewWidth:MJCImageW+50 imagenewHeight:MJCImageH];
         
     }else if (MJCDropdownMenuType == MJCDropdownMenuLeft){//左边
         
@@ -113,5 +113,41 @@ static const CGFloat MJCImageH = 200;
     
     [MJCDropdownView setupContentFrame];
 }
+
+#pragma mark - 工具类方法
++ (UIImage *)imageByApplyingAlpha:(CGFloat)alpha  image:(UIImage*)image
+{
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, 0.0f);
+    
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    
+    CGRect area = CGRectMake(0, 0, image.size.width, image.size.height);
+    
+    CGContextScaleCTM(ctx, 1, -1);
+    CGContextTranslateCTM(ctx, 0, -area.size.height);
+    
+    CGContextSetBlendMode(ctx, kCGBlendModeMultiply);
+    
+    CGContextSetAlpha(ctx, alpha);
+    
+    CGContextDrawImage(ctx, area, image.CGImage);
+    
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return newImage;
+
+}
+
+
++(UIImage *)imageStretchableImageWithLeftCap:(UIImage *)image
+{
+    //防止图片拉伸
+    UIImage *newimage = [image resizableImageWithCapInsets:UIEdgeInsetsMake(image.size.height * 0.5,image.size.width *0.5,image.size.height * 0.5, image.size.width * 0.5)];
+    
+    return newimage;
+}
+
 
 @end

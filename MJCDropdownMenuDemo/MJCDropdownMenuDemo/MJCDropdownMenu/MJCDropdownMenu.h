@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 typedef enum {
     MJCDropdownMenuRight,
     MJCDropdownMenuMiddle,
@@ -15,7 +15,7 @@ typedef enum {
 }MJCDropdownMenuType;
 
 
-@interface MJCDropdownMenu1 : NSObject
+@interface MJCDropdownMenu : NSObject
 
 @property (nonatomic,assign) MJCDropdownMenuType MJCDropdownMenuType;
 
@@ -49,5 +49,10 @@ typedef enum {
 /** 设置图片的X,Y值 */
 +(void)setupImagenewFrame:(UIView *)fromView ImageX:(CGFloat)imageX imageY:(CGFloat)imageY;
 
+/** 修改图片透明度 */
++ (UIImage *)imageByApplyingAlpha:(CGFloat)alpha  image:(UIImage*)image;
+
+/** 防止图片拉伸的方法 */
++ (UIImage *)imageStretchableImageWithLeftCap:(UIImage *)image;
 
 @end
