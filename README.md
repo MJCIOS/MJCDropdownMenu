@@ -6,7 +6,13 @@
 ![image](https://github.com/MJCIOS/MJCDropdownMenu/raw/master/MJCDropdownMenuDemo/MJCDropdownMenuDemo/right.gif)
 
 
-
+###类型
+    
+    typedef enum {
+        MJCDropdownMenuRight,
+        MJCDropdownMenuMiddle,
+        MJCDropdownMenuLeft
+    }MJCDropdownMenuType;
 
 ###创建窗口
 
