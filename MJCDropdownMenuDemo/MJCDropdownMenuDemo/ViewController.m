@@ -56,8 +56,8 @@
     
     MJCTestViewController *tetVC = [MJCTestViewController new];
     
-    
     [MJCDropdownMenu showFromView:sender mainImage:[UIImage imageNamed:@"popover_background_right@2x"] MJCDropdownMenuType:MJCDropdownMenuLeft];
+    
     [MJCDropdownMenu popContentController:tetVC];
     
     [MJCDropdownMenu setupImagenewFrame:sender ImageW:130 imageH:120 MJCDropdownMenuType:MJCDropdownMenuRight];

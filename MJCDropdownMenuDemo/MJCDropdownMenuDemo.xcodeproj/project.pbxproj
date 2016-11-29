@@ -25,6 +25,9 @@
 		25B4BF101DED1F64001B70C0 /* MJCTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B4BF0E1DED1F64001B70C0 /* MJCTestViewController.xib */; };
 		25B4BF141DED20F1001B70C0 /* MJCTestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B4BF121DED20F1001B70C0 /* MJCTestViewController2.m */; };
 		25B4BF151DED20F1001B70C0 /* MJCTestViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B4BF131DED20F1001B70C0 /* MJCTestViewController2.xib */; };
+		25B4BF191DED47BE001B70C0 /* zhong.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25B4BF161DED47BE001B70C0 /* zhong.gif */; };
+		25B4BF1A1DED47BE001B70C0 /* left.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25B4BF171DED47BE001B70C0 /* left.gif */; };
+		25B4BF1B1DED47BE001B70C0 /* right.gif in Resources */ = {isa = PBXBuildFile; fileRef = 25B4BF181DED47BE001B70C0 /* right.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,9 @@
 		25B4BF111DED20F1001B70C0 /* MJCTestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCTestViewController2.h; sourceTree = "<group>"; };
 		25B4BF121DED20F1001B70C0 /* MJCTestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCTestViewController2.m; sourceTree = "<group>"; };
 		25B4BF131DED20F1001B70C0 /* MJCTestViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJCTestViewController2.xib; sourceTree = "<group>"; };
+		25B4BF161DED47BE001B70C0 /* zhong.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = zhong.gif; sourceTree = "<group>"; };
+		25B4BF171DED47BE001B70C0 /* left.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = left.gif; sourceTree = "<group>"; };
+		25B4BF181DED47BE001B70C0 /* right.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = right.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,9 @@
 		25B4BEC71DED1C2A001B70C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25B4BF161DED47BE001B70C0 /* zhong.gif */,
+				25B4BF171DED47BE001B70C0 /* left.gif */,
+				25B4BF181DED47BE001B70C0 /* right.gif */,
 				25B4BECA1DED1C2A001B70C0 /* AppDelegate.h */,
 				25B4BECB1DED1C2A001B70C0 /* AppDelegate.m */,
 				25B4BED01DED1C2A001B70C0 /* Main.storyboard */,
@@ -312,11 +321,14 @@
 			files = (
 				25B4BF071DED1D87001B70C0 /* popover_background_left@2x.png in Resources */,
 				25B4BF061DED1D87001B70C0 /* popover_background@2x.png in Resources */,
+				25B4BF1B1DED47BE001B70C0 /* right.gif in Resources */,
 				25B4BED71DED1C2A001B70C0 /* LaunchScreen.storyboard in Resources */,
 				25B4BF081DED1D87001B70C0 /* popover_background_right@2x.png in Resources */,
 				25B4BED41DED1C2A001B70C0 /* Assets.xcassets in Resources */,
 				25B4BED21DED1C2A001B70C0 /* Main.storyboard in Resources */,
 				25B4BF151DED20F1001B70C0 /* MJCTestViewController2.xib in Resources */,
+				25B4BF1A1DED47BE001B70C0 /* left.gif in Resources */,
+				25B4BF191DED47BE001B70C0 /* zhong.gif in Resources */,
 				25B4BF101DED1F64001B70C0 /* MJCTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
