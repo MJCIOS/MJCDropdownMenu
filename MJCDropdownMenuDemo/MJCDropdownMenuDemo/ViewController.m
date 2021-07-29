@@ -20,7 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     self.view.backgroundColor = [UIColor redColor];
     
 }
@@ -29,10 +28,8 @@
     
     MJCTestViewController *tetVC = [MJCTestViewController new];
     
-    
     [MJCDropdownMenu showFromView:sender mainImage:[UIImage imageNamed:@"popover_background_left@2x"] MJCDropdownMenuType:MJCDropdownMenuLeft];
     [MJCDropdownMenu popContentController:tetVC];
-    
     
     [MJCDropdownMenu setupImagenewFrame:sender ImageW:130 imageH:120 MJCDropdownMenuType:MJCDropdownMenuLeft];
     

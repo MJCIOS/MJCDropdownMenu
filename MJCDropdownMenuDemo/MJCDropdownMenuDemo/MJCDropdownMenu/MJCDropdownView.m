@@ -8,13 +8,10 @@
 
 #import "MJCDropdownView.h"
 
-
-
 //图片宽度
 static const CGFloat MJCImageW = 160;
 //图片高度
 static const CGFloat MJCImageH = 200;
-
 
 static UIImageView *containerImage_;
 static UIWindow *window;
@@ -22,9 +19,7 @@ static UIViewController *controller;
 static UIButton *button;
 static UIView *contentView;
 
-
 @implementation MJCDropdownView
-
 
 /** 创建窗口菜单的方法 */
 +(void)showFromView:(UIView *)fromView mainImage:(UIImage*)mainImage imagenewMarginX:(CGFloat)imagenewX imagenewMarginY:(CGFloat)imagenewMarginY imagenewWidth:(CGFloat)imagenewWidth imagenewHeight:(CGFloat)imagenewHeight;
